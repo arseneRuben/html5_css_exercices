@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+p:nth-of-type(1) {
+    background-color: green;
+    text-align: center;
+}
+
+p:nth-of-type(2) {
+    background-color: yellow;
+    width: 300px;
+    margin: auto;
+    text-align: right;
+}
+
+span:last-child {
+    background-color: gray;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+div {
+    background-color: black;
+    padding: 20px 0 20px 0;
+}
+
+div>div {
+    background-color: red;
+    text-align: right;
+    height: 21px;
+    margin: 0;
+    padding: 0;
+
+}

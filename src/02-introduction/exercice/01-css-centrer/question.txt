@@ -1,0 +1,9 @@
+Exercice - css-centrer
+
+Objectifs:
+    Révision des techniques de centrage CSS.
+
+Consignes:
+    - Créer le fichier css\css-centrer.css
+    - Ajouter le code nécessaire pour obtenir le même résultat que la maquette.
+    - Le HTML ne doit pas être modifié.
