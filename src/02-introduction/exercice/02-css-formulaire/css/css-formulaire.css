@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body {
+    width: 30%;
+    margin: auto;
+    background-color: grey;
+
+}
+
+form {
+    border: 1px solid black;
+}
+
+form label {
+    width: 60%;
+    display: block;
+    border: 1px solid black;
+}
+
+form>div {
+    border: 1px solid orangered;
+    margin: 5px 10px;
+}
+
+form input {
+    width: 90%;
+    margin-top: 20px;
+    height: 20px;
+}
+
+form div:last-child {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+}
