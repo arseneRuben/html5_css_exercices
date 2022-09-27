@@ -10,6 +10,10 @@ body {
 
 }
 
+section {
+    border: 2px solid black;
+}
+
 h1 {
     text-align: center;
 }
@@ -34,14 +38,16 @@ article:last-of-type div {
 article:last-of-type p {
     height: 200px;
     display: inline-block;
+    position: relative;
+    width: 100%;
 }
 
 article:last-of-type p a {
     background-color: yellow;
     color: blue;
-    position: fixed;
-    bottom: 5%;
-    right: 5%;
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
     width: 10%;
     text-align: center;
 }
