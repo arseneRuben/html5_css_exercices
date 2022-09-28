@@ -1,0 +1,10 @@
+Exercice - Sémantique
+
+Objectifs
+    Utiliser les éléments sémantiques HTML5 pour regrouper le contenu et produire le résultat sur la maquette ci-dessous.
+
+Consignes:
+    - Crée le fichier semantique.html
+    - Crée le fichier css/semantique.css
+    - Ne pas utiliser de float CSS
+    - Note: Les balises suivantes doivent être utilisées: header, footer, main, nav, figure, figcaption

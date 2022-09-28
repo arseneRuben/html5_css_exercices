@@ -1,0 +1,10 @@
+Exercice - Guitare
+
+Objectifs
+    Révision des balises sémantique et des techniques de positionnement.
+
+Consignes:
+    - Crée le fichier css/cs-guitare.css
+    - Ne pas utiliser de float CSS
+    - Le HTML ne doit pas être modifié.
+    - Ajouter le code nécessaire pour obtenir le même résultat que la maquette.

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: grey;
+    height: 200px;
+    /* position: absolute;*/
+    padding-bottom: 40px;
+}
+
+nav img {
+    width: 16%;
+    margin: 0.5% 2% 0.5% 0.5%;
+
+}
+
+nav div {
+    text-align: center;
+    position: relative;
+    display: inline;
+    vertical-align: top;
+    ;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure img {
+    width: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+nav button {
+    color: blue;
+    background-color: white;
+    border: none;
+    width: 16%;
+    height: 50px;
+    margin: 10% 2%;
+    font-size: 1.25em;
+}
+
+footer {
+    background-color: gray;
+
+}
