@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+div.product-gallery div {
+    border: 2px solid black;
+    margin: 2.5% 2% 2.5% 2%;
+    width: 450px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.product-gallery div ul {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+div.product-gallery div a {
+    color: brown;
+}
+
+div.product-gallery div a img {
+
+    width: 30px;
+}
+
+div.product-gallery div a {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+figure img {
+    width: 60%;
+
+
+}
+
+div.product-gallery div figure {
+    text-align: left;
+}
