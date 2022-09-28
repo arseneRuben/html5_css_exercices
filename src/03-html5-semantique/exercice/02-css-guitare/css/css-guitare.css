@@ -16,6 +16,8 @@ div.product-gallery div {
     position: relative;
     display: inline-block;
     vertical-align: top;
+    text-align: left;
+
 }
 
 div.product-gallery div ul {
@@ -24,8 +26,10 @@ div.product-gallery div ul {
     right: 10%;
 }
 
-div.product-gallery div a {
-    color: brown;
+
+div.product-gallery div a:hover {
+    border: 1px solid brown;
+    background-color: bisque;
 }
 
 div.product-gallery div a img {
@@ -37,6 +41,7 @@ div.product-gallery div a {
     position: absolute;
     top: 1%;
     right: 1%;
+    color: brown;
 }
 
 figure img {

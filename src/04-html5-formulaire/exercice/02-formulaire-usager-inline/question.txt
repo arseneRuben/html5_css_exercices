@@ -1,0 +1,13 @@
+Exercice - Formulaire usager inline
+
+Objectifs:
+    - Utiliser des pseudoclasses (sélecteur) pour représenter l'état des formulaires
+    - Revoir les méthodes de positionnement CSS.
+
+Consignes:
+    - Crée le fichier css/formulaire-usager-inline.css
+    - Écrire le code CSS pour obtenir le même résultat que la maquette.
+    - La présentation est centrée avec une taille fixe de 500px
+    - Vous devez utiliser le mode de positionnement CSS inline-block
+    - Spécifier une bordure noire de 3px sur les champs obligatoires
+    - Spécifier une bordure rouge de 3px sur les champs invalides

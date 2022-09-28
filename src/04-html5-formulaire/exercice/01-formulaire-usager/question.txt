@@ -1,0 +1,27 @@
+Exercice - Formulaire usager
+
+Objectifs
+    Utiliser les nouvelles possibilités HTML5 pour la création de formulaires.
+
+Consignes:
+    - Crée le fichier formulaire-usager.html
+    - Ajouter le code nécessaire pour obtenir le même résultat que la maquette.
+    - Implémenter chacune des fonctionnalités sur les champs suivants:
+
+    Tous les champs sont obligatoires.
+    Une information proposée se trouve dans chacun des champs a l'ouverture.
+    Tous les champs possèdent un id et un name.
+
+    lastName
+        Mettre automatiquement l’accent sur ce champ à l'ouverture.
+        Maximum de 50 caractères.
+    firstName
+        Maximum de 50 caractères.
+    userPhone
+        Valider le format suivant: ^\(?\d{3}\)?(-| )?\d{3}(-| )?\d{4}$
+    userEmail
+        Maximum de 100 caractères.
+    webSite
+        Maximum de 2000 caractères.
+    userAge
+        Nombre entier supérieur ou égal à 18 ans et inférieur à 151 ans.
