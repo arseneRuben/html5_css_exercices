@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+form fieldset {
+    background-color: rgb(221, 219, 219);
+
+}
+
+form legend {
+    padding-top: 8px;
+
+}
+
+
+
+form fieldset legend, form fieldset+div>input {
+    background-color: gray;
+    color: white;
+    border: 1px gray solid;
+    height: 40px;
+
+    margin-top: 10px;
+}
+
+form fieldset div {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+
+
+form fieldset div label {
+    text-align: right;
+    display: inline-block;
+    width: 45%;
+}
+
+form input[type|="submit"] {
+    text-align: center;
+    margin-left: 45%;
+}
+
+
+
+input:required {
+    border: 3px solid black;
+}
+
+input:invalid {
+    border: 3px solid red;
+}
