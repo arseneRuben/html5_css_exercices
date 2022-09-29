@@ -39,9 +39,11 @@ form fieldset div {
 
 
 form fieldset div label {
-    text-align: right;
-    display: inline-block;
-    width: 45%;
+    display: block;
+    float: right;
+    text-align: left;
+    padding-right: 10px;
+    width: 200px;
 }
 
 form input[type|="submit"] {
@@ -52,7 +54,7 @@ form input[type|="submit"] {
 
 
 
-input:required {
+:required {
     border: 3px solid black;
 }
 

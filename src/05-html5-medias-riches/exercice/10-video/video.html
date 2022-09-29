@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video</title>
+        <link rel="stylesheet" href="css/video.css">
+    </head>
+
+    <body>
+
+        <video controls muted poster="image/video.png">
+            <source src="video/video-exemple.mp4" type="video/mp4" />
+            <source src="video/video-exemple.mov" type="video/mov" />
+            <source src="video/video-exemple.webm" type="video/webm" />
+
+            <!--Solution alternative ici -->
+            <object type="application/x-shockwave-flash" width="400" height="222" data="podcast.mp4">
+                <param name="movie" value="video/video-exemple.mp4" />
+                <param name="wmode" value="transparent" />
+
+                <!--[if lte IE 6 ]>
+                <embed
+                    src="podcast.mp4"
+                    type="application/x-shockwave-flash"
+                    allowscriptaccess="always"
+                    allowfullscreen="true"
+                    width="400"
+                    height="222">
+                </embed>
+                <![endif]-->
+
+                Vous n'avez pas de navigateur moderne ni de plug-in Flash installé
+                qui permet la reproduction de ce fichier vidéo.
+                Vous pouvez télécharger <a href="https://www.google.com/chrome/">Google Chrome</a>
+                qui est compatible avec la reproduction de fichiers audio et vidéo.
+            </object>
+        </video>
+
+    </body>
+
+</html>

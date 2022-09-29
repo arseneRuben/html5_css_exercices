@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Exercice - Formulaire usager</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercice - Formulaire usager</title>
+        <link rel="stylesheet" href="css/formulaire-usager-float.css">
+    </head>
 
-    <link rel="stylesheet" href="css/formulaire-usager-float.css">
-</head>
+    <body>
+        <form action="inscription.html">
+            <h2>Exercice - Formulaire usager</h2>
+            <fieldset>
+                <legend>Vous êtes:</legend>
+                <div>
+                    <label for="lastName">Nom</label>
+                    <input type="text" id="lastName" placeholder="Nom" required="required" maxlength="50" autofocus />
+                </div>
+                <div>
+                    <label for="firstName">Prénom</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Prénom" required="required" maxlength="50" />
+                </div>
 
-<body>
-    <form action="inscription.html">
-        <h2>Exercice - Formulaire usager</h2>
+                <div>
+                    <label for="userPhone">Téléphone</label>
+                    <input type="tel" id="userPhone" name="userPhone" placeholder="514-888-9999" pattern="^\(?\d{3}\)?(-| )?\d{3}(-| )?\d{4}$" required="required" />
+                </div>
 
-        <fieldset>
-            <legend>Vous êtes:</legend>
+                <div>
+                    <label for="userEmail">Courriel</label>
+                    <input type="email" id="userEmail" name="userEmail" placeholder="Courriel" required="required" maxlength="100" />
+                </div>
+
+                <div>
+                    <label for="webSite">Site web</label>
+                    <input type="url" id="webSite" name="webSite" placeholder="Adresse de votre site" maxlength="2000" />
+                </div>
+
+                <div>
+                    <label for="userAge">Votre âge</label>
+                    <input type="number" id="userAge" name="userAge" min="18" max="150" required="required" placeholder="Âge" />
+                </div>
+            </fieldset>
+
             <div>
-                <label for="lastName">Nom</label>
-                <input type="text" id="lastName" placeholder="Nom" required="required" maxlength="50" autofocus />
+                <input type="submit" value="Soumettre" />
             </div>
 
-            <div>
-                <label for="firstName">Prénom</label>
-                <input type="text" id="firstName" name="firstName" placeholder="Prénom" required="required" maxlength="50" />
-            </div>
-
-            <div>
-                <label for="userPhone">Téléphone</label>
-                <input type="tel" id="userPhone" name="userPhone" placeholder="514-888-9999" pattern="^\(?\d{3}\)?(-| )?\d{3}(-| )?\d{4}$" required="required" />
-            </div>
-
-            <div>
-                <label for="userEmail">Courriel</label>
-                <input type="email" id="userEmail" name="userEmail" placeholder="Courriel" required="required" maxlength="100" />
-            </div>
-
-            <div>
-                <label for="webSite">Site web</label>
-                <input type="url" id="webSite" name="webSite" placeholder="Adresse de votre site" maxlength="2000" />
-            </div>
-
-            <div>
-                <label for="userAge">Votre âge</label>
-                <input type="number" id="userAge" name="userAge" min="18" max="150" required="required" placeholder="Âge" />
-            </div>
-        </fieldset>
-
-        <div>
-            <input type="submit" value="Soumettre" />
-        </div>
-
-    </form>
-</body>
+        </form>
+    </body>
 
 </html>

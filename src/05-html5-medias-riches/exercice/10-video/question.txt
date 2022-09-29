@@ -1,0 +1,13 @@
+Exercice - Vidéo
+
+
+Utiliser l'élément HTML5 vidéo pour l'intégration dans une page sans plug-in.
+
+Consignes:
+    - Crée le fichier: video.html
+    - La vidéo ne démarre pas automatiquement.
+    - Le son est désactivé par défaut.
+    - Une image est présentée lors de l'ouverture de la page en remplacement de la vidéo.
+    - Fournir une solution alternative utilisant un plugiciel de type flash avec la balise object.
+    - Fournir un message explicatif avec les liens vers un navigateur moderne lorsque la balise vidéo n'est pas supportée et que le plugiciel flash n'est pas installé.
+    - Écrire le code pour produire le résultat des maquettes.

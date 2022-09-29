@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Exercice - Canvas diagram
+
+Objectif:
+    Utiliser l'élément HTML5 canvas pour produire une représentation graphique 2d.
+
+Consignes:
+    - Crée le fichier: canvas-diagram.html en utilisant le code ci-dessous
+    - Écrire le code manquant pour produire le résultat de la maquette.
+-->
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice canvas</title>
+
+    <style>
+        #canvasElement {
+            border: 1px black solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Les 12 langages de programmation les plus utilisés.</h1>
+
+    <canvas id="canvasElement" width="640" height="480"></canvas>
+
+    <script>
+        /**
+         * https://insights.stackoverflow.com/survey/2018#most-popular-technologies
+         **/
+        const LANGUAGES = [
+            { name: "JavaScript", value: "69.8" },
+            { name: "HTML", value: "68.5" },
+            { name: "CSS", value: "65.1" },
+            { name: "SQL", value: "57.0" },
+            { name: "Java", value: "45.3" },
+            { name: "Bash/Shell", value: "39.8" },
+            { name: "Python", value: "38.8" },
+            { name: "C#", value: "34.4" },
+            { name: "PHP", value: "30.7" },
+            { name: "C++", value: "25.4" },
+            { name: "C", value: "23.0" },
+            { name: "TypeScript", value: "17.4" }
+        ];
+
+        const canvas = document.getElementById("canvasElement");
+
+        const BAR_PADDING = 5;
+        const BAR_WIDTH = Math.round(canvas.height / LANGUAGES.length) - BAR_PADDING;
+
+        LANGUAGES.forEach(function (language, index) {
+
+        });
+    </script>
+
+</body>
+
+</html>
