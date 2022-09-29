@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Canvas personnage</title>
+        <style>
+            #canvasElement {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <canvas id="canvasElement" width="640" height="480"></canvas>
+
+        <script>
+            const canvas = document.getElementById("canvasElement")
+            const context = canvas.getContext("2d")
+
+            context.fillStyle = "blue"
+
+            // Compléter le code manquant ici.
+            context.arc(320, 85, 50, 0, 2 * Math.PI);
+            context.rect(270, 130, 100, 200);
+
+            context.rect(150, 150, 120, 15);
+            context.rect(370, 150, 120, 15);
+            context.rect(270, 330, 15, 120);
+            context.rect(355, 330, 15, 120);
+
+            context.fill();
+
+
+        </script>
+    </body>
