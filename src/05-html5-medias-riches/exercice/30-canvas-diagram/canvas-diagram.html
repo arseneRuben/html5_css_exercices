@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<!--
-Exercice - Canvas diagram
-
-Objectif:
-    Utiliser l'élément HTML5 canvas pour produire une représentation graphique 2d.
-
-Consignes:
-    - Crée le fichier: canvas-diagram.html en utilisant le code ci-dessous
-    - Écrire le code manquant pour produire le résultat de la maquette.
--->
 <html lang="fr">
 
     <head>
@@ -53,16 +43,24 @@ Consignes:
             ];
 
             const canvas = document.getElementById("canvasElement");
+            var context = canvas.getContext("2d");
+            context.fillStyle = "gray";
 
             const BAR_PADDING = 5;
             const BAR_WIDTH = Math.round(canvas.height / LANGUAGES.length) - BAR_PADDING;
 
             LANGUAGES.forEach(function (language, index) {
-                context.rect(0, (BAR_WIDTH + BAR_PADDING) * index, language.value, BAR_WIDTH);
-
+                context.rect(0, (BAR_WIDTH + BAR_PADDING) * index, language.value * 640 / 100, BAR_WIDTH);
 
             });
             context.fill();
+            context.fillStyle = "black";
+            context.font = "18px Arial";
+            LANGUAGES.forEach(function (language, index) {
+                context.fillText(language.name, 10, (BAR_WIDTH + BAR_PADDING) * index + BAR_WIDTH / 2 + BAR_PADDING);
+
+            });
+
         </script>
 
     </body>
