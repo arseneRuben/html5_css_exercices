@@ -1,0 +1,11 @@
+Exercice - CSS3 pseudo-classe et pseudo-élément
+
+Objectif:
+    - Utiliser les nouveaux pseudo-classes et pseudo-éléments du CSS3
+
+Consignes:
+    - Crée le fichier css/css3-pseudo.css pour obtenir le résultat de la maquette.
+    - Ne pas modifier le fichier HTML.
+    - Le premier paragraphe change de couleur lors d'un survole avec la sourie.
+    - Le dernier paragraphe aura toujours la première ligne en majuscule en majuscule, et ce,
+        même lorsque la page est redimensionnée.

@@ -1,0 +1,8 @@
+Exercice - CSS3 sélecteur
+
+Objectif:
+    - Utiliser les nouveaux sélecteurs CSS3.
+
+Consignes:
+    - Crée le fichier css/css3-selecteur.css pour obtenir le résultat de la maquette.
+    - Ne pas modifier le fichier HTML

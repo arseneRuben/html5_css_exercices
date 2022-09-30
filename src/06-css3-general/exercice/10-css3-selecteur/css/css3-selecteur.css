@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+div:first-of-type p:nth-of-type(1) {
+    color: orange;
+}
+
+div:first-of-type h3+p {
+    color: red;
+}
+
+div:first-of-type h3~p {
+    border: 2px solid black;
+}
+
+div:first-of-type+p {
+    background-color: pink;
+    color: orangered;
+}
+
+div>img {
+    border: 4px solid red;
+}
+
+div img:nth-of-type(3) {
+    border: 6px solid yellow;
+}
+
+div img:nth-of-type(4) {
+    border: 4px solid blue;
+}
+
+ul:first-of-type li:nth-child(2n+1) {
+    text-decoration: underline;
+}
+
+ul:first-of-type li:nth-child(2n+6), ul:first-of-type li:nth-child(2n+7) {
+    font-size: x-large;
+}
+
+
+
+ul:first-of-type li:first-child {
+    color: red;
+}
+
+ul:first-of-type li:nth-child(3) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul:first-of-type li:nth-child(5) {
+    font-size: larger;
+}
+
+
+ul:first-of-type li:nth-child(4n+4) {
+    border: 1px solid orange;
+}
+
+ul:nth-of-type(2) li:only-child {
+    background-color: green;
+}
+
+div p:first-of-type {
+    color: orange;
+}
+
+div h3~p {
+    border: 2px solid black;
+}
+
+div p:only-of-type {
+    background-color: pink;
+}
+
+
+ul:first-of-type li:last-child {
+    color: blueviolet;
+    font-size: x-large;
+}

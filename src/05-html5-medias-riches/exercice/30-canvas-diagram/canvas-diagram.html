@@ -51,12 +51,16 @@
 
             LANGUAGES.forEach(function (language, index) {
                 context.fillStyle = "gray";
-                context.fillRect(0, (BAR_WIDTH + BAR_PADDING) * index, language.value * canvas.width / 100, BAR_WIDTH);
+                context.fillRect(0, (BAR_WIDTH + BAR_PADDING) * index, language.value * 640 / 100, BAR_WIDTH);
                 context.fillStyle = "black";
                 context.font = "18px Arial";
                 context.fillText(language.name + " %", 10, (BAR_WIDTH + BAR_PADDING) * index + BAR_WIDTH / 2 + BAR_PADDING);
 
             });
+
+
+
+            //context.fill();
 
         </script>
 
