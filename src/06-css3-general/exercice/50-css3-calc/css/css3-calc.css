@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+
+}
+
+p:first-of-type:hover {
+    background-color: red;
+}
+
+p:last-of-type::first-line {
+    text-transform: uppercase;
+}
+
+div.banner {
+    position: relative;
+}
+
+div.banner img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.banner h2 {
+    font-size: 1.5em;
+    position: absolute;
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    width: 8em;
+    z-index: 2;
+    height: 1em;
+    left: calc(50% - 8em / 2);
+    /* height divided by 2*/
+    top: calc(50% - 1em / 2);
+    /* width divided by 2*/
+
+
+}
