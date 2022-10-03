@@ -6,12 +6,12 @@
     font-family: 'HomeAndWork';
     src: url('fonts/HomeAndWork.eot');
     src: url('fonts/HomeAndWork.eot') format('embedded-opentype'),
+        url('fonts/HomeAndWork.woff2') format('woff2'),
         url('fonts/HomeAndWork.woff') format('woff'),
         url('fonts/HomeAndWork.ttf') format('truetype'),
-        url('fonts/HomeAndWork.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+        url('fonts/HomeAndWork.svg#HomeAndWork') format('svg');
 }
+
 
 body {
     width: 80%;
