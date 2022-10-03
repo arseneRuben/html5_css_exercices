@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HomeAndWork';
+    src: url('fonts/HomeAndWork.eot');
+    src: url('fonts/HomeAndWork.eot') format('embedded-opentype'),
+        url('fonts/HomeAndWork.woff') format('woff'),
+        url('fonts/HomeAndWork.ttf') format('truetype'),
+        url('fonts/HomeAndWork.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'HomeAndWork';
+}

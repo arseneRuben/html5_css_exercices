@@ -1,0 +1,12 @@
+Exercice - CSS3 Police de caractère
+
+Objectif
+    Utilisation de police de caractères personnalisés et
+    génération d'une déclaration CSS permettant la compatibilité avec plusieurs navigateurs.
+
+Consignes:
+    - Crée le fichier css/css3-police.css.
+    - Utilisez le site <a href="https://www.dafont.com/">www.dafont.com</a> pour télécharger une police de votre choix
+    - Utilisez l'outil <a href="https://everythingfonts.com/font-face">font-face generator</a> pour générer tous les formats nécessaires et la configuration pour la règle @font-face.
+    - Assigner la police sur le h1 de la page.
+

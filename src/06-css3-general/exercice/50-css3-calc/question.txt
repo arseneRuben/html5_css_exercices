@@ -1,0 +1,12 @@
+Exercice - CSS3 calc()
+
+Objectif:
+    Utilisation fonction CSS3 calc() pour le calcul du positionnement.
+
+Consignes:
+    - Crée le fichier css/css3-calc.css et écrire le CSS pour centrer le H2 au-dessus de l'image.
+    - L'image utilise 100% de son conteneur horizontal pour avoir un résultat fluide.
+    - La balise H2 possède une taille fixe en pixel.
+    - Vous devez utiliser le mode de positionnement absolute.
+    - Le H2 doit être centré pour toutes les tailles de navigateur.
+
