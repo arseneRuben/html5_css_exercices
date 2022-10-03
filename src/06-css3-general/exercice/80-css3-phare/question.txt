@@ -1,0 +1,21 @@
+Exercice - CSS3 Phare
+
+Objectif:
+    Utiliser les nouveautés disponibles dans CSS3
+
+Consignes:
+    - Crée le fichier css\css3-phare.css
+    - Utiliser la  police personnalisée "sofia-regular" ci-dessous.
+    - Un dégradé allant du gris foncé à un gris clair en fond de page.
+    - Une transparence RGBa sur le fond bleu clair du titre "Le phare du bout du monde"
+    - Une ombre portée sur le sous-titre "Contactez-nous"
+    - Un coin arrondi (border-radius) sur le coin supérieur droit du formulaire.
+    - Les champs nom et courriel sont requis et leur bordure doit prendre à l’accent:
+        - la couleur rouge lorsque la valeur saisie n'est pas valide
+        - La couleur verte lorsque la valeur saisie est valide.
+    - Le champ du code postal doit être vérifié avec l'expression régulière suivante: ^(?!.*[DFIOQU])[A-VXY][0-9][A-Z]●?[0-9][A-Z][0-9]$
+
+
+    - Codes couleurs à utiliser:
+        Bleu clair: rgb(173, 216, 230)
+        Pour l'ombre portée et le dégradé du fond, utilisez les tons de votre choix.

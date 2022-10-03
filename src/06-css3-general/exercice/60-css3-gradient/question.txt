@@ -1,0 +1,9 @@
+Exercice - CSS3 gradient
+
+Objectif:
+    Utilisation fonction CSS3 pour produire différents dégradés de couleur.
+
+Consignes:
+    - Crée le fichier css/css3-gradient.css et ajouter
+    - Un dégradé radial dans la div (couleur de votre choix)
+    - Un dégradé vertical sur le fond de la page (couleurs de votre choix)

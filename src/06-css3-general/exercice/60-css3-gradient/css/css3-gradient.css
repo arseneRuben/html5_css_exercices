@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(#06394f, #dfeff6);
+
+}
+
+div:first-of-type {
+    background: radial-gradient(#ebf3f7, #700707);
+
+}

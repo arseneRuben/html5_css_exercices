@@ -1,0 +1,14 @@
+Exercice - CSS3 shadow et radius
+
+Objectif:
+    Utiliser les divers effets graphiques possibles avec CSS3
+
+Consignes:
+    - Crée le fichier css/css3-shadow-radius.css pour obtenir le même résultat que la maquette.
+
+    - Le div a une ombre externe grâce à l’attribut box-shadow et une couleur de fond rouge.
+    - Le premier article a une ombre interne décalée en haut à gauche et une couleur de fond verte
+    - Le second article a une couleur de fond grise et a les coins arrondis (10px).
+    - Le troisième article a une couleur de fond noire et une transparence de type opacity (0.5) (le texte est aussi transparent)
+    - Le quatrième article a une couleur de fond noire et une transparence de type rgba (0.5) afin que le texte ne soit pas affecté par celle-ci.
+    - Appliquer la propriété box-sizing:border-box à tous les éléments.
