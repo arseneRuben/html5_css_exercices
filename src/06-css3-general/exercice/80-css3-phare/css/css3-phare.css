@@ -46,7 +46,7 @@ section div h1 {
     top: 30%;
     position: absolute;
     width: 98%;
-    background-color: rgba(141, 152, 231, 0.5);
+    background-color: rgba(176, 221, 239, 0.682);
     height: 25%;
     font-size: 2.5em;
     padding-left: 5%;
@@ -58,7 +58,7 @@ section div img {
 }
 
 section form fieldset {
-    background-color: rgba(141, 152, 231, 0.5);
+    background-color: rgba(176, 221, 239, 0.682);
     width: 80%;
     margin: auto;
     border: none;
@@ -85,7 +85,8 @@ fieldset input {
     margin-left: 20%;
 }
 
-input:required ::before {
-    content: "*";
+label.star::after {
+    content: " *";
     color: red;
+    font-size: large;
 }
