@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(#121111, #e5e9ea);
+}
+
+
+
+/* Dans le fichier CSS, on déclare une police personnalisée */
+@font-face {
+    font-family: 'sofia-regular';
+    src: url('fonts/sofiaregularwebfont.eot');
+    src: url('fonts/sofiaregularwebfont.eot') format('embedded-opentype'),
+        url('fonts/sofiaregularwebfont.woff2') format('woff2'),
+        url('fonts/sofiaregularwebfont.woff') format('woff'),
+        url('fonts/sofiaregularwebfont.ttf') format('truetype'),
+        url('fonts/sofiaregularwebfont.svg#sofiaregularwebfont') format('svg');
+}
+
+
+body {
+    font-family: 'sofia-regular';
+}
+
+div:first-of-type {
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+
+section div {
+    position: relative;
+}

@@ -18,13 +18,14 @@ div:first-of-type {
 div:first-of-type article {
     padding: 5px;
     margin: 10px;
+    box-shadow: 10px 5px 5px #07042b
 }
 
 
 div:first-of-type article:nth-child(1) {
     background-color: green;
-    box-shadow: inset 1em 1em green;
-    ;
+    box-shadow: inset 1.5em 1.5em green;
+
 }
 
 div:first-of-type article:nth-child(2) {
@@ -39,5 +40,5 @@ div:first-of-type article:nth-child(3) {
 
 div:first-of-type article:nth-child(4) {
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0.5;
+
 }
