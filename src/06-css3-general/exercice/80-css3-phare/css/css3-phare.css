@@ -24,9 +24,10 @@ body {
 
 body {
     font-family: 'sofia-regular';
+
 }
 
-div:first-of-type {
+body>div {
     background-color: white;
     text-align: center;
     padding: 1%;
@@ -34,15 +35,57 @@ div:first-of-type {
 
 
 section div {
+    padding: 1%;
+
     position: relative;
-    background-color: rgb(146, 90, 21);
 }
 
 section div h1 {
+    text-align: left;
 
+    top: 30%;
     position: absolute;
+    width: 98%;
+    background-color: rgba(141, 152, 231, 0.5);
+    height: 25%;
+    font-size: 2.5em;
+    padding-left: 5%;
+}
 
-    background-color: #07246b;
 
+section div img {
+    width: 100%;
+}
 
+section form fieldset {
+    background-color: rgba(141, 152, 231, 0.5);
+    width: 80%;
+    margin: auto;
+    border: none;
+    border-top-right-radius: 20px;
+}
+
+div>label {
+    text-align: left;
+
+}
+
+fieldset div {
+    position: relative;
+}
+
+fieldset div label {
+    position: absolute;
+    text-align: left;
+    left: 20%;
+}
+
+fieldset input {
+    width: 40%;
+    margin-left: 20%;
+}
+
+input:required ::before {
+    content: "*";
+    color: red;
 }
