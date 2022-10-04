@@ -24,7 +24,7 @@ div:first-of-type article {
 
 div:first-of-type article:nth-child(1) {
     background-color: green;
-    box-shadow: inset 1.5em 1.5em green;
+    box-shadow: inset 1em 1em gray;
 
 }
 

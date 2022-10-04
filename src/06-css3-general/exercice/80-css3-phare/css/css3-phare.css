@@ -35,4 +35,14 @@ div:first-of-type {
 
 section div {
     position: relative;
+    background-color: rgb(146, 90, 21);
+}
+
+section div h1 {
+
+    position: absolute;
+
+    background-color: #07246b;
+
+
 }
