@@ -6,5 +6,41 @@ body {
     width: 80%;
     margin: auto;
     font-size: 8vh;
-    color: white;
+}
+
+div {
+    border: 1px solid black;
+}
+
+div img.fixe-100 {
+    width: 100px;
+    height: 100px;
+}
+
+
+div img.height-100 {
+
+    height: 100px;
+}
+
+
+div img.width-100 {
+
+    width: 100px;
+}
+
+div.conteneur-fixe {
+    width: 100px;
+    height: 100px;
+}
+
+div.maximun-width {
+    max-width: 100px;
+    background-color: blueviolet;
+}
+
+div.maximum-width-limit-height {
+    max-width: 400px;
+    max-height: 400px;
+    background-color: aqua;
 }
