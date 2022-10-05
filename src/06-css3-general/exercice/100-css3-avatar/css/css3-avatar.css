@@ -10,9 +10,7 @@ body {
 }
 
 div.wrapper {
-    position: relative;
     padding: 1vh;
-    background-color: aliceblue;
 }
 
 header, footer {
@@ -51,15 +49,35 @@ div.avatar {
     padding-left: 4vh;
 }
 
-div.avatar-fade {
+div.avatar {
     height: 40vh;
-    width: 14vw;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 
-    transform: skew(-10deg);
-    background-position: center center;
-    background-size: 30vh 25vh;
-    background-image: linear-gradient(to left,
-            rgba(40, 40, 34, 0.5),
-            #2b2d2f), url("../image/profile-image.jpg");
+
+    background-image: url("../image/profile-image.jpg");
     /*background-color: white;*/
+}
+
+.avatar .avatar-fade {
+    height: 40vh;
+    width: 30vh;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(transparent, #2b2d2f);
+    opacity: 0.7;
+    position: absolute;
+}
+
+.avatar .avatar-slash {
+    background-color: #2b2d2f;
+    right: 0;
+    height: 40vh;
+    width: 10vh;
+    transform: rotate(5deg);
+    position: absolute;
+
 }
