@@ -52,5 +52,5 @@ div.maximum-width img {
 
 div.maximum-width-limit-height img {
     max-height: 400px;
-
+    max-width: 100%;
 }
