@@ -1,0 +1,9 @@
+Exercice - CSS3 avatar
+
+Objectif:
+    Utilisation des fonctions CSS3 pour l'intégration graphique d'un avatar.
+
+Consignes:
+    - Crée le fichier css/css3-avatar.css pour obtenir le résultat de la maquette
+    - Un dégradé linéaire avec la couleur #2b2d2f
+    - Trouver une façon pour produire le côté droit incliné

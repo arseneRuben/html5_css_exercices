@@ -1,0 +1,9 @@
+Exercice - CSS3 keyframes carousel
+
+Objectif
+    Utilisation des fonctions CSS3 pour produire un carrousel sans  utiliser JavaScript.
+
+Consignes:
+    - Créer le fichier css/css3-keyframes-carousel.css
+    - Ajouter le code CSS3 nécessaires pour permettre un défilement automatique des images.
+

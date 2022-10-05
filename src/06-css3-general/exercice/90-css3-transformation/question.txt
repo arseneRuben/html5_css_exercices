@@ -1,0 +1,11 @@
+Exercice - CSS3 Transformation
+
+Objectif:
+    Utiliser les divers effets graphiques possibles avec CSS3
+
+Consignes:
+    - Crée le fichier css/css3-transformation.css pour obtenir le résultat de la maquette.
+    - Le carré rouge doit être agrandi grâce à un zoom horizontal de 1.5 un zoom vertical de 3.
+    - Le carré vert doit être déplacé par translation de 200px.
+    - Le carré bleu clair doit être déplacé par rotation de 45 deg.
+    - Le carré noir doit être déformé de 30deg.

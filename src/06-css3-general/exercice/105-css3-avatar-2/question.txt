@@ -1,0 +1,10 @@
+Exercice - CSS3 avatar 2
+
+Objectif:
+    Utilisation des fonctions CSS3 pour l'intégration des images fluides.
+
+Consignes:
+    - Crée le fichier css/css3-avatar-2.css pour obtenir le résultat des maquettes
+    - Dans cet exemple, l'image est un avatar donc elle ne doit jamais être déformée.
+    - Ne pas modifier le fichier HTML
+    - Voir la présentation du professeur.

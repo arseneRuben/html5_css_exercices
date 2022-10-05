@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+div.carre-rouge {
+    transform: scale(1.5, 3);
+}
+
+div.carre-vert {
+    transform: translate(200px);
+}
+
+div.carre-bleu {
+    transform: rotate(45deg);
+}
+
+div.carre-noir {
+    transform: skew(20deg);
+}

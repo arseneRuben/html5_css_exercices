@@ -1,0 +1,11 @@
+Exercice - CSS3 keyframes care
+
+Objectif
+    Utilisation fonction CSS3 pour produire une animation de base.
+
+Consignes:
+    - Crée le fichier css/css3-keyframes-care.css et ajouter le code CSS3 nécessaire pour que le carré se déplace:
+    - horizontalement vers le coin supérieur droit
+    - puis verticalement vers le coin inférieur droit
+    - puis horizontalement vers le coin inférieur gauche
+    - puis verticalement pour retourner à sa place originale au coin supérieur gauche

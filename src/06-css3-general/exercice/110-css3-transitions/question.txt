@@ -1,0 +1,12 @@
+Exercice - CSS3 Transitions
+
+Objectif:
+    Utiliser les divers effets graphiques possibles avec CSS3
+
+Consignes:
+    - Crée le fichier css/css3-transitions.css pour obtenir le résultat de la maquette.
+    - Ajoutez le code CSS3 nécessaire pour qu'au survol de la souris (:hover) les éléments se comportent de la manière suivante:
+    - Les carrés rouges s'agrandissent avec un zoom de 2 en 2 secondes et avec un style de transition rapide sur le début et ralenti sur la fin (ease).
+    - Le lien sur fond vert change de couleur (du vert au rose) en 0.5 seconde de manière constante (linear).
+    - Le carré bleu clair tourne sur 180 deg en 1 seconde, de manière lente sur le début et rapide sur la fin (ease-in);
+    - Au survol de la souris (:hover), le curseur doit avoir l'apparence de la petite main
