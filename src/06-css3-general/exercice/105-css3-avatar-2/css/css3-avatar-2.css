@@ -34,13 +34,26 @@ div.conteneur-fixe {
     height: 100px;
 }
 
+div.conteneur-fixe img {
+    width: 100%;
+}
+
 div.maximun-width {
     max-width: 100px;
     background-color: blueviolet;
+}
+
+div.maximun-width img {
+    width: 100%;
 }
 
 div.maximum-width-limit-height {
     max-width: 400px;
     max-height: 400px;
     background-color: aqua;
+}
+
+div.maximum-width-limit-height img {
+    max-height: 100%;
+    max-width: 100%;
 }
