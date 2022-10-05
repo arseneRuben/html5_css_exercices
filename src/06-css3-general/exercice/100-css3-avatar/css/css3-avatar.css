@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-size: 8vh;
+    color: white;
+}
+
+div.wrapper {
+    position: relative;
+    padding: 1vh;
+    background-color: aliceblue;
+}
+
+header, footer {
+    background-color: #2b2d2f;
+
+}
+
+header {
+    height: 42vh;
+    position: relative;
+}
+
+div.header-title {
+    position: absolute;
+    right: 1vh;
+    top: 1vh;
+}
+
+main {
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+}
+
+
+div.avatar {
+    padding: 1vh;
+    padding-left: 4vh;
+}
+
+div.avatar-fade {
+    height: 40vh;
+    width: 14vw;
+
+    transform: skew(-10deg);
+    background-position: center center;
+    background-size: 30vh 25vh;
+    background-image: linear-gradient(to left,
+            rgba(40, 40, 34, 0.5),
+            #2b2d2f), url("../image/profile-image.jpg");
+    /*background-color: white;*/
+}
