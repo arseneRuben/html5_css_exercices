@@ -5,7 +5,8 @@
 body {
     width: 100%;
     margin: auto;
-    background-color: black;
+    background: repeating-radial-gradient(#8e8c8a, #4218a4 50px);
+
     color: white;
     text-align: center;
 }
@@ -15,6 +16,7 @@ div.parallax-a, div.parallax-b, div.parallax-c, div.parallax-d {
     width: 100%;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 div.parallax-a {
@@ -43,7 +45,9 @@ div.story-a, div.story-b, div.story-c, div.story-d {
     margin: auto;
 
     font: italic small-caps bold 1.5rem cursive;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid rgb(23, 22, 29);
     border-radius: 40%;
-    background: linear-gradient(#f69d3c, #3f87a6);
+    background: radial-gradient(#e6e6ee, #042635);
 }
+
+div.story-a {}
