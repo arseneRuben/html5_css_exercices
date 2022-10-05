@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div.parallax-a, div.parallax-b, div.parallax-c, div.parallax-d {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div.parallax-a {
+    background-image: url("../img/a-min.jpg");
+
+}
+
+div.parallax-b {
+    background-image: url("../img/b-min.jpg");
+
+}
+
+div.parallax-c {
+    background-image: url("../img/c-min.jpg");
+
+}
+
+div.parallax-d {
+    background-image: url("../img/d-min.jpg");
+
+}
+
+div.story-a, div.story-b, div.story-c, div.story-d {
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+
+    font: italic small-caps bold 1.5rem cursive;
+    border: 3px solid rgb(25, 0, 255);
+    border-radius: 40%;
+    background: linear-gradient(#f69d3c, #3f87a6);
+}
