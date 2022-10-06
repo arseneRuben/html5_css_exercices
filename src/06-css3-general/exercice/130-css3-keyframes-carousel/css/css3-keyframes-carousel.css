@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+div.slider {
+    position: relative;
+}
+
+@keyframes deplacement {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 50%;
+        top: 0;
+    }
+
+    50% {
+        left: 50%;
+        top: 50%;
+    }
+
+    75% {
+        top: 50%;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        right: 50%;
+    }
+
+
+}
+
+div#anim-carre {
+    animation-name: deplacement;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
