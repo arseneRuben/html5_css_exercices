@@ -2,29 +2,16 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 80%;
-    margin-left: 30vw;
-    margin-top: 20vh;
-}
-
 div#slider {
 
-    margin-left: 0px;
-    padding-left: 0px;
     width: 200px;
-    background-color: aqua;
     overflow: hidden;
-    /*  position: absolute;*/
+    margin: auto;
 
 }
 
 div#slider-container {
-
     width: 1020px;
-
-    /*position: relative;*/
-
 
 }
 
@@ -35,39 +22,39 @@ img {
 
 @keyframes deplacement {
     0% {
-        translate: 200px;
+        translate: -200px;
         /*left: 0;*/
     }
 
     20% {
-        translate: 200px;
+        translate: -200px;
         /*left: 200px;*/
     }
 
     40% {
-        translate: 200px;
+        translate: -200px;
         /* left: 400px;*/
     }
 
     60% {
-        translate: 200px;
+        translate: -200px;
         /* left: 600px;*/
     }
 
     80% {
-        translate: 200px;
+        translate: -200px;
         /* left: 800px;*/
     }
 
     100% {
-        translate: 200px;
+        translate: -200px;
         /*left: 1000px;*/
     }
 
 
 }
 
-div#slider {
+div#slider-container {
     animation-name: deplacement;
     animation-duration: 5s;
     animation-iteration-count: infinite;
