@@ -15,7 +15,7 @@ div#slider {
     width: 200px;
     background-color: aqua;
     overflow: hidden;
-    position: absolute;
+    /*  position: absolute;*/
 
 }
 
@@ -23,7 +23,7 @@ div#slider-container {
 
     width: 1020px;
 
-    position: relative;
+    /*position: relative;*/
 
 
 }
@@ -35,28 +35,33 @@ img {
 
 @keyframes deplacement {
     0% {
-        /*translate: 200px;*/
-        left: 0;
+        translate: 200px;
+        /*left: 0;*/
     }
 
     20% {
-        left: 200px;
+        translate: 200px;
+        /*left: 200px;*/
     }
 
     40% {
-        left: 400px;
+        translate: 200px;
+        /* left: 400px;*/
     }
 
     60% {
-        left: 600px;
+        translate: 200px;
+        /* left: 600px;*/
     }
 
     80% {
-        left: 800px;
+        translate: 200px;
+        /* left: 800px;*/
     }
 
     100% {
-        left: 1000px;
+        translate: 200px;
+        /*left: 1000px;*/
     }
 
 
