@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+div.products-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+div.products {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+a {
+
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(27, 85, 108);
+}
