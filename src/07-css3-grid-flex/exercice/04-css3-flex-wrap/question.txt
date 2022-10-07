@@ -1,0 +1,9 @@
+Exercice - CSS3 flex wrap
+
+Objectif:
+    - Utiliser le mode de positionnement flex avec le contrôle du débordement pour créer une mise en page fluide.
+
+Consignes:
+    - Créer le fichier css/css3-flex-wrap.css pour obtenir le résultat de la maquette ci-dessous.
+    - L'entête utilise la propriété justify-content pour l'alignement du logo et des menus.
+    - La présentation des services utilise la propriété flex-wrap pour obtenir un alignement fluide.

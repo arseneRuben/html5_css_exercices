@@ -1,0 +1,8 @@
+Exercice - CSS3 grid page layout
+
+Objectif:
+    Utiliser le mode de positionnement grid pour créer une mise en page principale fluide.
+
+Consignes:
+    - Crée le fichier css/css3-grid-page-layout.css pour obtenir le résultat de la maquette.
+    - Taille fixe pour header, footer, nav et aside

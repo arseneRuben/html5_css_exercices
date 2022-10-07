@@ -1,0 +1,9 @@
+Exercice - CSS3 flex page layout
+
+Objectif:
+    Utiliser les le mode de positionnement flex pour créer une mise en page principale fluide.
+
+Consignes:
+    - Crée le fichier css/css3-flex-page-layout.css pour obtenir le résultat de la maquette.
+    - Taille fixe de base (flex-basis) pour nav et aside.
+    - Taille fixe pour pour header, footer.

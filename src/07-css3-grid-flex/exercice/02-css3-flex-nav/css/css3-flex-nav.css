@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    background-color: rgb(237, 237, 241);
+    color: rgb(74, 74, 173);
+    font-size: 2rem;
+}
+
+nav ul {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5%;
+
+}
+
+nav ul li {
+    width: 15%;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}

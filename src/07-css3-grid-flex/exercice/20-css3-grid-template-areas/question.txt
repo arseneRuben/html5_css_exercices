@@ -1,0 +1,10 @@
+Exercice - CSS3 grid template areas
+
+Objectif:
+    Utiliser le mode de positionnement grid pour créer 3 colonnes fluides dans la partie main.
+    Assigner une auteur fixe de 100px pour le header et footer.
+    Utiliser la fonction calc() pour forcer la partie main a utilisé tout la hauteur disponible de la page.
+    Utiliser grid-area pour nommer les différentes zones.
+
+Consignes:
+    Crée le fichier css/css3-grid-template-areas.css pour obtenir le résultat de la maquette.

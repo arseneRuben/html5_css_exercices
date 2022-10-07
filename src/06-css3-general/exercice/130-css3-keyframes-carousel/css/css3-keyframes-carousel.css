@@ -4,50 +4,50 @@
 
 div#slider {
 
-    width: 200px;
+    width: 20%cd ..;
     overflow: hidden;
     margin: auto;
 
 }
 
 div#slider-container {
-    width: 1020px;
+    width: 1000px;
 
 }
 
 img {
-    width: 200px;
+    width: 20%;
 
 }
 
 @keyframes deplacement {
     0% {
-        translate: -200px;
+        transform: translate(-20%, 0);
         /*left: 0;*/
     }
 
     20% {
-        translate: -200px;
+        transform: translate(-20%, 0);
         /*left: 200px;*/
     }
 
     40% {
-        translate: -200px;
+        transform: translate(-20%, 0);
         /* left: 400px;*/
     }
 
     60% {
-        translate: -200px;
+        transform: translate(-20%, 0);
         /* left: 600px;*/
     }
 
     80% {
-        translate: -200px;
+        transform: translate(-20%, 0);
         /* left: 800px;*/
     }
 
     100% {
-        translate: -200px;
+        transform: translate(20%, 0);
         /*left: 1000px;*/
     }
 

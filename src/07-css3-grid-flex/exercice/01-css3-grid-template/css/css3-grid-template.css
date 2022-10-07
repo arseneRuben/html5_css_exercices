@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.item {
+    border: 1px solid black;
+}

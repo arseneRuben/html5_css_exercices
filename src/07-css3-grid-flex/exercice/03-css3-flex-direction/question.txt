@@ -1,0 +1,10 @@
+Exercice - CSS3 flex direction
+
+Objectif:
+    Utiliser le mode de positionnement flex pour la création de colonnes et de rangées.
+
+Consignes:
+    - Créer le fichier css/css3-flex-direction.css pour obtenir le résultat de la maquette.
+    - Le conteneur principal positionne horizontalement
+    - Le conteneur de chaque produit positionne verticalement
+

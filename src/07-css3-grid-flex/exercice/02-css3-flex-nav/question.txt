@@ -1,0 +1,9 @@
+Exercice - CSS3 flex nav
+
+Objectif:
+    Utiliser le mode de positionnement flex pour créer une barre de navigation fluide
+
+Consignes:
+    - Créer le fichier css/css3-flex-nav.css pour obtenir le résultat de la maquette.
+    - Les  éléments du menu sont de largeur identique et la somme de leurs largeurs fait 100% de la fenêtre du navigateur
+    - Les liens occupent 100% de la largeur et de la hauteur des li.

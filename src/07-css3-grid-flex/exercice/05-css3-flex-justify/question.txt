@@ -1,0 +1,8 @@
+Exercice - CSS3 flex justify
+
+Objectif:
+    - Utiliser le mode de positionnement flex pour créer le le menu (hud) d'un jeu vidéo.
+    - Expérimenter avec la propriété justify-content pour contrôler l'alignement des items
+
+Consignes:
+    - Crée le fichier css/css3-flex-justify.css pour obtenir le résultat de la maquette.

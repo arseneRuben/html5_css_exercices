@@ -1,0 +1,7 @@
+Exercice - CSS3 grid template
+
+Objectif:
+    Utiliser le mode de positionnement grid pour créer des colonnes fluides.
+
+Consignes:
+    Crée le fichier css/css3-grid-template.css pour obtenir le résultat de la maquette.

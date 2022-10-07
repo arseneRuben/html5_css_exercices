@@ -1,0 +1,7 @@
+Exercice - CSS3 flex align-self
+
+Objectif:
+    Expérimentation avec la propriété align-self pour modifier l'alignement d'un item spécifique.
+
+Consignes:
+    Crée le fichier css/css3-flex-align-self.css pour obtenir le même résultat que les maquettes.
