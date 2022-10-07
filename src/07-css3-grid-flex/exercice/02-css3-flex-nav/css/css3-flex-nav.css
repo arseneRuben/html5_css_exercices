@@ -7,38 +7,47 @@ body {
     margin: auto;
 }
 
-ul {
-    background-color: rgb(237, 237, 241);
-    color: rgb(74, 74, 173);
 
-}
 
 nav ul {
     display: flex;
     width: 100%;
-
     justify-content: space-between;
-
-
+    color: rgb(74, 74, 173);
 }
 
-nav ul li {
-    width: 20%;
-    column-gap: normal;
-}
 
 nav ul li {
+    padding-left: 0;
     list-style-type: none;
     font-weight: bold;
     font-size: 1.5em;
+    width: 20%;
+    column-gap: normal;
 
 }
 
-nav ul li a {
+
+
+nav a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+nav ul li a, a:hover {
+
     text-decoration: none;
     width: 100%;
 }
 
 nav ul li :hover {
     background-color: gray;
+}
+
+li.lien {
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+    background-color: lightgray;
 }
