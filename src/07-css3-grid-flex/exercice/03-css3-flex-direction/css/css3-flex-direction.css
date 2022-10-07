@@ -16,16 +16,20 @@ div.products-container {
 
 
 div.products {
-
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-
-
+    width: 20%;
+    height: 50vh;
+    padding: 10px;
 }
 
 a {
-
+    width: 60%;
+    text-align: center;
+    margin: auto;
     padding: 10px;
     background-color: aquamarine;
     color: rgb(27, 85, 108);
+    text-decoration: none;
 }
