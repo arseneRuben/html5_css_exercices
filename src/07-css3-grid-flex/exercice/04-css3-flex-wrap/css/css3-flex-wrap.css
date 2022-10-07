@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+
+}
+
+header {
+    background-color: blueviolet;
+    padding: 15px;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 1vw;
+    top: 2vh;
+
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+
+
+}
+
+nav li {
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+nav a, a:hover {
+
+    text-decoration: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#services-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+div.services-element {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
