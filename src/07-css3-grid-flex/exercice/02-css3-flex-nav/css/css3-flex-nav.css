@@ -10,28 +10,35 @@ body {
 ul {
     background-color: rgb(237, 237, 241);
     color: rgb(74, 74, 173);
-    font-size: 2rem;
+
 }
 
 nav ul {
-    display: inline-flex;
+    display: flex;
     width: 100%;
-    flex-direction: row;
+
     justify-content: space-between;
-    column-gap: 5%;
+
 
 }
 
 nav ul li {
-    width: 15%;
+    width: 20%;
+    column-gap: normal;
 }
 
 nav ul li {
     list-style-type: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
+
 }
 
 nav ul li a {
     text-decoration: none;
+    width: 100%;
+}
+
+nav ul li :hover {
+    background-color: gray;
 }
