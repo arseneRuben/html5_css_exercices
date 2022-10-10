@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+div.container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+}
+
+main {
+    height: 60vh;
+    grid-area: main;
+    width: 60vw;
+}
+
+
+header {
+    background-color: rgb(221, 81, 81);
+    height: 5vh;
+    grid-area: header;
+}
+
+nav {
+    background-color: rgb(36, 36, 118);
+    grid-area: nav;
+    width: 10vw;
+}
+
+aside {
+    background-color: aqua;
+    grid-area: aside;
+    width: 10vw;
+}
+
+footer {
+    background-color: yellowgreen;
+    height: 5vh;
+    grid-area: footer;
+}
