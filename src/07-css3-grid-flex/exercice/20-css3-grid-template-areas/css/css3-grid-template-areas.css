@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    display: grid;
+}
+
+header, footer {
+    background-color: black;
+    height: 100px;
+    color: aliceblue;
+    font-size: 2em;
+}
+
+
+main {
+
+    display: grid;
+    grid-template-areas:
+        "leftaside main rightaside";
+
+}
+
+section {
+    grid-area: main;
+    width: 60vw;
+    height: calc(100vh - 100px - 100px);
+}
+
+
+aside:first-of-type {
+    background-color: brown;
+    width: 10vw;
+    grid-area: leftaside;
+}
+
+aside:last-of-type {
+    background-color: blue;
+    width: 10vw;
+    grid-area: rightaside;
+}
