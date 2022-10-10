@@ -10,21 +10,28 @@ body {
 
 }
 
-
-
-div.container {
-    display: grid;
-    grid-template-areas:
-        "header header header"
-        "nav main aside"
-        "footer footer footer";
-}
-
 main {
     height: 60vh;
     grid-area: main;
-    width: 50vw;
+    width: 60vw;
 }
+
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+div.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
 
 
 header {
@@ -36,13 +43,13 @@ header {
 nav {
     background-color: rgb(36, 36, 118);
     grid-area: nav;
-    width: 15vw;
+    width: 10vw;
 }
 
 aside {
     background-color: aqua;
     grid-area: aside;
-    width: 15vw;
+    width: 10vw;
 }
 
 footer {
