@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+
+}
+
+#wrapper, #mana, #life {
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding: 0;
+
+}
+
+#wrapper {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5vh;
+
+    background-image: url("../image/game.jpg");
+    z-index: 0;
+    padding: 2px;
+}
+
+#wrapper .game {
+    width: 100%;
+    height: 60%;
+
+
+}
+
+
+#wrapper .hud {
+    z-index: 1;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper .hud .mana, #wrapper .hud .life {
+    width: 20%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+}
+
+#wrapper .hud .mana {
+    background-image: url("../image/mana.png");
+
+}
+
+#wrapper .hud .life {
+    background-image: url("../image/life.png");
+
+}
