@@ -4,11 +4,7 @@
 
 }
 
-body {
-    width: 80%;
-    margin: auto;
 
-}
 
 
 
@@ -21,7 +17,7 @@ div.container {
 }
 
 main {
-    height: 60vh;
+    height: 80vh;
     grid-area: main;
     width: 50vw;
 }
@@ -29,24 +25,24 @@ main {
 
 header {
     background-color: rgb(221, 81, 81);
-    height: 5vh;
+    height: 10vh;
     grid-area: header;
 }
 
 nav {
     background-color: rgb(36, 36, 118);
     grid-area: nav;
-    width: 15vw;
+    width: 25vw;
 }
 
 aside {
     background-color: aqua;
     grid-area: aside;
-    width: 15vw;
+    width: 25vw;
 }
 
 footer {
     background-color: yellowgreen;
-    height: 5vh;
+    height: 10vh;
     grid-area: footer;
 }
