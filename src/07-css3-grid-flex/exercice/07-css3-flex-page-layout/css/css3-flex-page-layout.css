@@ -4,20 +4,17 @@
 
 }
 
-body {
-    width: 80%;
-    margin: auto;
 
-}
 
 main {
-    height: 60vh;
+    height: 80vh;
     grid-area: main;
     width: 60vw;
 }
 
 
 div.container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,24 +33,26 @@ div.main-container {
 
 header {
     background-color: rgb(221, 81, 81);
-    height: 5vh;
+    height: 10vh;
+    width: 100%;
     grid-area: header;
 }
 
 nav {
     background-color: rgb(36, 36, 118);
     grid-area: nav;
-    width: 10vw;
+    width: 20vw;
 }
 
 aside {
     background-color: aqua;
     grid-area: aside;
-    width: 10vw;
+    width: 20vw;
 }
 
 footer {
     background-color: yellowgreen;
-    height: 5vh;
+    height: 10vh;
     grid-area: footer;
+    width: 100%;
 }
