@@ -78,6 +78,7 @@ div.container-vertical div {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto auto auto;
     align-self: flex-end;
+    flex-grow: 4;
 }
 
 div.container-vertical div:nth-child(1) {
