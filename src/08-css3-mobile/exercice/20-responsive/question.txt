@@ -1,0 +1,8 @@
+Exercice - Responsive
+
+Objectif:
+    Utiliser les medias queries pour réaliser une mise en page responsive.
+
+Consignes:
+    - Crée le fichier css/exercice-responsive.css pour obtenir le résultat présenté sur les maquettes.
+    - Utiliser seulement display: inline-block (pas de grid ou flex)

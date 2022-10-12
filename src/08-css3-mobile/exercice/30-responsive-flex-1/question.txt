@@ -1,0 +1,7 @@
+Exercice - responsive-flex-1
+
+Objectif:
+    - Expérimenter avec la combinaison du flex-wrap sur le conteneur et l'usage de la propriété order sur les items
+
+Consignes:
+    - Crée le fichier css/responsive-flex-1.css pour obtenir le résultat présenté sur les maquettes.

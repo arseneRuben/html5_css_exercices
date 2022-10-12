@@ -1,0 +1,7 @@
+Exercice - responsive-grid-1
+
+Objectif:
+    - Utilisation de grid pour l'adaptation d'une mise en page complète sur toutes les tailles d'écran.
+
+Consignes:
+    - Crée le fichier css/responsive-grid-1.css pour obtenir le résultat présenté sur les maquettes.

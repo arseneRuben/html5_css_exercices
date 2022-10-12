@@ -1,0 +1,8 @@
+Exercice - responsive-flex-2
+
+Objectif:
+    - Expérimenté avec la propriété flex-wrap pour permettre le débordement pour la taille mobile.
+        - Méthode alternative possible: ne pas utiliser flex-wrap et spécifier les tailles en % pour chaque taille d'écran.
+
+Consignes:
+    - Crée le fichier css/responsive-flex-2.css pour obtenir le résultat présenté sur les maquettes.

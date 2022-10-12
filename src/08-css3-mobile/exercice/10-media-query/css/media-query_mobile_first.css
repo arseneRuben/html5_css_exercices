@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: red;
+}
+
+section {
+    width: 100%;
+    font-size: 0;
+}
+
+article {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav ul {
+    margin: 0;
+
+}
+
+li {
+    background-color: orange;
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+
+
+
+
+#wrapper {
+    background-color: pink;
+}
+
+@media only screen and (min-width:600px) {
+    /*
+        ICI ON MET LES STYLES DE LA VERSION INTERMÉDIAIRE («phablettes» et tablettes).
+        Dans ce cas-ci, taille redimensionnée à 90% et couleur de fond verte dès que la largeur de l'écran passe au dessus de 768px
+    */
+
+    body {
+        margin: 20px auto;
+        background-color: blue;
+    }
+
+    article {
+        width: 49%;
+        display: inline-block;
+    }
+
+    li {
+
+        width: 20%;
+        margin-right: 3%;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+    /*
+        ICI ON MET LES STYLES DE LA VERSION DESKTOP.
+        Dans ce cas-ci, taille redimensionnée à 70% et couleur de fond bleue dès que la largeur de l'écran passe au dessus de 992px
+    */
+
+    body {
+        background-color: rgb(185, 189, 190);
+    }
+
+    article {
+        width: 30%;
+        display: inline-block;
+    }
+
+    li {
+
+        width: 20%;
+        margin-right: 3%;
+    }
+
+
+}

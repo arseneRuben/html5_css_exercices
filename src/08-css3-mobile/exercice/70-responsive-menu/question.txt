@@ -1,0 +1,42 @@
+Exercice - responsive-menu
+
+Objectif:
+    - Revision et pratique avec le positionnement flex.
+    - Exemple d'utilisation de Javascript pour le traitement du menu en version mobile.
+
+Consignes:
+    - Crée le fichier css/responsive-menu.css pour obtenir le résultat des maquettes.
+    - Utiliser le CSS ci-dessous pour cacher le menu lorsque la taille de l'écran est en version mobile.
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    /*
+        cache le menu en version mobile et le JavaScript ajoutera
+        la classe .show-menu sur un évènement 'click' sur #burger_menu
+    */
+    display: none;
+}
+
+/* Classe qui sera ajouté et retiré sur le UL par le javascript dans le fichier HTML  */
+.show-menu {
+    display: block;
+}
+
+/* Cache le burger menu sur les tailles autres que le mobile */
+@media only screen and (min-width:768px) {
+    #burger_menu {
+        display: none;
+    }
+}
+
+/* Cache le burger menu sur les tailles autres que le mobile */
+@media only screen and (min-width:992px) {
+    #burger_menu {
+        display: none;
+    }
+}

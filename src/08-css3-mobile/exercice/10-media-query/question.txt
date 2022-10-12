@@ -1,0 +1,12 @@
+Exercice - CSS3 media query
+
+Objectif:
+    Utiliser les media query pour contrôler la mise en page sur trois tailles d'appareils différents.
+
+Consignes:
+    - Crée le fichier css/media-query_mobile_first.css pour obtenir le résultat présenté sur les maquettes.
+    - Ne pas utiliser grid ou flex
+    - Utiliser l'unité px et % uniquement pour la déclaration des media query
+    - Fond blanc lorsque supérieure a 992px
+    - Fond bleu entre 600px et 992px
+    - Fond rouge lorsque inférieur a 600px
