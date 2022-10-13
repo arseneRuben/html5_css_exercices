@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+
+
+div.red {
+    background-color: red;
+    height: 200px;
+}
+
+
+div.orange {
+    background-color: orange;
+    height: 200px;
+}
+
+div.yellow {
+    background-color: yellow;
+    height: 200px;
+}
+
+@media only screen and (min-width:768px) {
+
+    div.container {
+        font-size: 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    div.red {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        height: 400px;
+    }
+
+    div.sub-container {
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (min-width:992px) {
+    div.red {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        height: 400px;
+    }
+}
+
+/*
+// Methode alternative
+@media only screen and (min-width:768px) {
+
+
+    div.container {
+        font-size: 0;
+
+        text-align: center;
+
+    }
+
+    div.red {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        height: 400px;
+    }
+
+    div.sub-container {
+        display: inline-block;
+        width: 60%;
+    }
+}
+
+
+
+@media only screen and (min-width:992px) {
+    div.red {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        height: 400px;
+    }
+}
+*/
