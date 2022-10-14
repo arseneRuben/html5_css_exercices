@@ -4,21 +4,18 @@ body {
 }
 
 div.wrapper {
-    padding: 1%;
+    padding: 2.5%;
     display: grid;
     grid-template-areas:
-        "header header"
-        "main main"
-        "aside aside"
+        "header"
+        "main"
+        "aside"
     ;
     background-color: rgb(194, 118, 118);
-
 }
 
 header {
-
-
-    width: 90%;
+    width: 95%;
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -27,7 +24,6 @@ header {
 
 header img {
     width: 10%;
-    display: inline-block;
 }
 
 header nav.nav-menu {
@@ -36,7 +32,6 @@ header nav.nav-menu {
 
 header nav.nav-burger {
     width: 10%;
-    display: inline-block;
     background-color: green;
     height: 100%;
     vertical-align: top;
@@ -47,19 +42,20 @@ header nav.nav-burger span {
 }
 
 div.wrapper aside {
-
+    display: flex;
+    overflow-x: auto;
     width: 90%;
     grid-area: aside;
+    margin: auto;
 }
 
 div.wrapper main {
-
     width: 90%;
     grid-area: main;
-    align-self: stretch;
-    justify-self: stretch;
+    margin: auto;
 
 }
+
 
 aside ul li {
     display: inline;
@@ -67,20 +63,55 @@ aside ul li {
 }
 
 aside img {
-    width: 70px;
+    width: 16vw;
+
 }
 
 aside ul {
     margin: auto;
-    overflow-x: scroll;
     display: flex;
-    justify-content: center;
 }
 
 @media only screen and (min-width:768px) {
     div.wrapper {
+        grid-template-areas:
+            "header header"
+            "aside  main "
+
+        ;
+        grid-template-columns: 35% 60%;
 
         background-color: skyblue;
+        margin-left: 0;
+
+    }
+
+    header nav.nav-menu {
+        display: block;
+    }
+
+    header nav.nav-burger {
+        display: none;
+    }
+
+    aside {
+        overflow-y: auto;
+
+    }
+
+    aside img {
+        width: 100%;
+
+    }
+
+    main {
+        width: 65%;
+    }
+
+    aside ul {
+        flex-direction: column;
+
+        height: 50vh;
 
     }
 }
@@ -91,11 +122,31 @@ aside ul {
     div.wrapper {
         margin: auto;
         grid-template-areas:
-            "header header"
-            "aside aside"
-            "main main"
+            "header"
+            "aside"
+            "main"
         ;
+        grid-template-columns: 100%;
         background-color: greenyellow;
 
     }
+
+    aside ul {
+        flex-direction: row;
+        height: 10vh;
+
+    }
+
+    aside {
+        overflow-x: auto;
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    aside img {
+        width: 10vw;
+        height: 100%;
+    }
+
+
 }
