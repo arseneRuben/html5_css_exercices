@@ -1,0 +1,101 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+div.wrapper {
+    padding: 1%;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "aside aside"
+    ;
+    background-color: rgb(194, 118, 118);
+
+}
+
+header {
+
+
+    width: 90%;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 10%;
+    display: inline-block;
+}
+
+header nav.nav-menu {
+    display: none;
+}
+
+header nav.nav-burger {
+    width: 10%;
+    display: inline-block;
+    background-color: green;
+    height: 100%;
+    vertical-align: top;
+}
+
+header nav.nav-burger span {
+    background-color: black;
+}
+
+div.wrapper aside {
+
+    width: 90%;
+    grid-area: aside;
+}
+
+div.wrapper main {
+
+    width: 90%;
+    grid-area: main;
+    align-self: stretch;
+    justify-self: stretch;
+
+}
+
+aside ul li {
+    display: inline;
+    list-style: none;
+}
+
+aside img {
+    width: 70px;
+}
+
+aside ul {
+    margin: auto;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:768px) {
+    div.wrapper {
+
+        background-color: skyblue;
+
+    }
+}
+
+
+
+@media only screen and (min-width:992px) {
+    div.wrapper {
+        margin: auto;
+        grid-template-areas:
+            "header header"
+            "aside aside"
+            "main main"
+        ;
+        background-color: greenyellow;
+
+    }
+}

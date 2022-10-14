@@ -3,10 +3,14 @@
 }
 
 
+div.container {
+    font-size: 0;
+}
 
 div.red {
     background-color: red;
     height: 200px;
+    vertical-align: top;
 }
 
 
@@ -23,23 +27,23 @@ div.yellow {
 @media only screen and (min-width:768px) {
 
     div.container {
-        font-size: 0;
-        text-align: center;
         display: flex;
         flex-wrap: nowrap;
-    }
 
-    div.red {
-        display: inline-block;
-        width: 30%;
-        vertical-align: top;
-        height: 400px;
+        margin-left: 10vw;
     }
 
     div.sub-container {
-        display: inline-block;
-        width: 70%;
+        width: 60%;
     }
+
+
+    div.red {
+        width: 30%;
+        height: 400px;
+    }
+
+
 }
 
 
@@ -48,7 +52,6 @@ div.yellow {
     div.red {
         display: inline-block;
         width: 40%;
-        vertical-align: top;
         height: 400px;
     }
 }
