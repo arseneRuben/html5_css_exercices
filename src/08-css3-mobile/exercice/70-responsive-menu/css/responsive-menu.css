@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    margin: auto;
+
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+
+}
+
+main {
+    font-family: serif;
+    margin: 100px 10px 0 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: white;
+}
+
+main img {
+    width: 95%;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+    margin: 0;
+    /*
+        cache le menu en version mobile et le JavaScript ajoutera
+        la classe .show-menu sur un évènement 'click' sur #burger_menu
+    */
+    display: block;
+}
+
+nav ul li, footer {
+    background-color: orange;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Classe qui sera ajouté et retiré sur le UL par le javascript dans le fichier HTML  */
+.show-menu {
+    display: block;
+}
+
+@media only screen and (min-width:768px) {
+
+    #burger_menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        color: white;
+    }
+
+
+    nav ul li {
+        width: 25%;
+        padding-left: 0;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 1.5em;
+        column-gap: normal;
+        text-align: center;
+    }
+
+
+
+
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul li a, a:hover {
+        text-decoration: none;
+    }
+
+    nav ul li :hover {
+        background-color: gray;
+    }
+
+    main div {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 25px 15px;
+    }
+
+    main aside {
+        border-left: 1px solid gray;
+        padding-left: 10px;
+        vertical-align: top;
+        text-align: left;
+        height: fit-content;
+    }
+}
+
+
+
+@media only screen and (min-width:992px) {
+    #burger_menu {
+        display: none;
+    }
+
+    body {
+        width: 80%;
+        background-color: antiquewhite;
+    }
+
+
+    main section {
+        display: flex;
+        gap: 25px 15px;
+        margin: 10px;
+    }
+
+    main aside {
+        width: 90%;
+    }
+}

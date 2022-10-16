@@ -14,6 +14,8 @@ div.wrapper {
     background-color: rgb(194, 118, 118);
 }
 
+
+
 header {
     width: 95%;
     grid-area: header;
@@ -37,8 +39,11 @@ header nav.nav-burger {
     vertical-align: top;
 }
 
-header nav.nav-burger span {
+nav.nav-burger>span {
+    width: 100%;
+    height: 20px;
     background-color: black;
+    margin-top: 2px;
 }
 
 div.wrapper aside {
