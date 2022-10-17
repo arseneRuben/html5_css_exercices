@@ -1,0 +1,97 @@
+﻿Révision finale - Papillon
+
+Vous devez réaliser la page d'accueil du zoo "Naturalia".
+
+Consignes
+    - Crée le fichier revision-papillon.html a la racine.
+    - Crée le fichier css/revision-papillon.css pour obtenir le résultat des maquettes ci-dessous.
+
+INSTRUCTIONS GÉNÉRALES
+
+    Vous êtes libre d'utiliser la méthode que vous voulez pour rendre le site responsive:
+        Une version desktop
+        Une version mobile à partir de 768px
+        Bien que l'on ne demande pas de version tablette, le site doit s'afficher correctement de manière fluide entre la version ordinateur et la version mobile.
+
+    Dans les deux versions, la page contient 7 zones principales:
+        Un en-tête (fond bleu-clair: #ADD8E6)
+        Un pied de page contenant un menu (fond bleu-clair: #ADD8E6)
+        Un article sur fond jaune: #FFC83F
+        Un deuxième article sur fond brun: #a2854c.
+        Un troisième article sur fond vert: #878729.
+        Une zone de contenu complémentaire (aside, sur fond blanc)
+        Une galerie de 5 photos (les photos sont fournies)
+
+
+VERSION DESKTOP DU SITE
+    La version desktop  doit être full-width (100%) de la largeur de la fenêtre du navigateur.
+    Appliquez la police Google webfont Pacifico sur le logo Naturalia.
+    Le papillon est placé à droite du logo.
+    Le papillon effectue une rotation de 180 degrés pendant 1 seconde lorsqu'on le survole
+    En haut à droite de la page, il y a une zone de connexion (formulaire) comprenant :
+        Un champ de saisie du courriel de l'utilisateur avec un texte indicatif (ex: "nom@monsite.com")
+        Un champ de saisie du mot de passe
+        Un bouton de soumission "Connexion"
+        Les champs sont validés HTML5 de telle sorte que :
+            Le champ courriel utilise la validation par défaut de HTML5
+            Le champ mot de passe ne contient que des lettres. Utilisez l'expression régulière suivante pour cela :   ^[a-zA-Z]+$
+    Dans le bas de la page, il y a une zone « galerie » comportant  5 images :
+
+        Les images deviennent transparentes à 80% quand on les survole avec la souris.
+        Les images sont responsives.
+        Les 3 articles ont des coins arrondis.
+        Le fond vert du 3e article devient à moitié transparent lorsqu'on le survole (mais pas le texte qu'il contient).
+
+        La zone de contenu complémentaire (aside)  :
+            prends un effet d'ombre portée lorsqu'on la survole avec la souris.
+            a des bordures arrondies.
+            la photo du koala est responsive
+        Le menu du pied de page:
+            Est centré et composé de 6 hyperliens: Accueil, Mission, Terre, Air, Mer, Contact
+
+
+VERSION MOBILE DU SITE
+
+        La version mobile doit apparaitre à partir de 768px.
+        Le papillon est placé à l'extrême droite de l'en-tête.
+        La boîte de connexion ne s'affiche plus.
+        Vous devez respecter l'ordre d'empilement des différents éléments.
+        Les images de la galerie sont maintenant sur une seule colonne.
+        Le menu du pied de page reste centré, mais les hyperliens "Terre", "Air", "Mer"  ne s'affichent plus:
+
+        La zone de contenu supplémentaire (aside):
+            La photo du koala est flottante à droite.
+
+
+Texte proposé pour la maquette
+========================================================
+
+
+Article 1
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Article 2
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+Article 3
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Nos coordonnées
+
+Naturalia Zoo
+325 Crémazie Est
+Montréal
+Québec
+H2M 1M2
+Téléphone: 514 222-3333
+Fax: 514 222-4444
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+Accueil Mission Contact Terre Air Mer
