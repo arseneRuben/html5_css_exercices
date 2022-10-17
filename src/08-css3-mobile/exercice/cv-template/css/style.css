@@ -1,0 +1,74 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(207, 200, 200);
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    grid-template-columns: 15% 25% 20% 10%;
+    grid-template-areas: "headshot name wideSpace contactDetails clear";
+
+}
+
+div#headshot img {
+    border-radius: 50%;
+}
+
+/*  La version mobile doit apparaitre à partir de 768px. */
+@media only screen and (min-width:768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div#formulaire2 {
+        display: block;
+    }
+
+    div#main {
+        display: flex;
+    }
+
+    div#article-container {
+        display: grid;
+        grid-template-areas: "cel11 cel12""cel22 cel22";
+    }
+
+    div#article-container article:nth-child(1) {
+        grid-area: cel11;
+    }
+
+    div#article-container article:nth-child(2) {
+        grid-area: cel12;
+    }
+
+    div#article-container article:nth-child(3) {
+        grid-area: cel22;
+    }
+
+    div#galerie-wrapper {
+        display: flex;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 1px 300px;
+    }
+
+    div#main aside {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (min-width:992px) {
+    div#main aside {
+        display: flex;
+        flex-direction: column;
+    }
+}
