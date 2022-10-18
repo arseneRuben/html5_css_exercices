@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: rgb(207, 200, 200);
+}
+
+header {
+    background-color: #a6a6a6;
+    display: grid;
+    grid-template-areas: "line1""line2""line3";
+    border-bottom: solid 0.15em #cc8800;
+    padding: 15px 220px;
+    margin: auto;
+}
+
+
+
+div#name {
+    grid-area: "line1";
+}
+
+div#name h2 {
+    padding-left: 30px;
+}
+
+div#contactDetails {
+    grid-area: "line2";
+
+}
+
+div#contactDetails ul {
+
+    padding: 10px 10px 0px 0px;
+}
+
+div#clear {
+    grid-area: "line3";
+}
+
+header h2, h1 {
+    margin: 0;
+}
+
+main h1 {
+    padding-top: 10px;
+    color: #cc8800;
+    font-size: larger;
+    font-family: Brushstroke, Georgia, serif;
+    font-style: italic;
+}
+
+
+
+header ul {
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+div#headshot {
+    display: none;
+}
+
+div#headshot img {
+    border-radius: 50%;
+}
+
+div.sectionTitle {
+    margin-top: 10px;
+}
+
+main {
+    background-color: #e6e6e6;
+    padding: 5px 40px;
+}
+
+main section {
+    border-bottom: solid 0.06em #a6a6a6;
+}
+
+article h2 {
+    margin: 5px 0;
+}
+
+article p.subDetails {
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 0 0 1px 0;
+}
+
+article p:last-of-type {
+    margin-top: 0;
+}
+
+ul.keySkills {
+    display: grid;
+    grid-template-areas: "item item ""item item ""item item ""item item ";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*  La version mobile doit apparaitre à partir de 768px. */
+@media only screen and (min-width:768px) {
+    div#headshot {
+        display: block;
+    }
+
+    header {
+        padding: 15px 0px;
+        display: flex;
+        grid-template-areas: "headshot name wideSpace contactDetails clear";
+    }
+
+    div#name {
+        padding: auto;
+        margin: 20px 20px;
+    }
+
+    div#name h2 {
+        padding-left: 0;
+    }
+
+    div#headshot img {
+        width: 80px;
+        margin: 20px 20px;
+    }
+
+    div#contactDetails {
+        text-align: right;
+        padding-left: 50%;
+        font-size: larger;
+    }
+
+    div#contactDetails li {
+        font-size: 16px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width:992px) {}
