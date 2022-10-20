@@ -1,0 +1,42 @@
+Examen pratique: Cupcakemania
+
+Instructions:
+    - Le travail doit se réaliser individuellement.
+    - Tout document jugé nécessaire est autorisé (livret, notes de cours, Internet...)
+    - Il est interdit de communiquer entre vous.
+    - L’utilisation de téléphone cellulaire est interdite. Tout manquement à cette norme mettra fin à l’examen.
+
+
+Instructions générales:
+    - Vous devez réaliser un site d'une seule page appelé "Cupcakemania" en suivant  les maquettes ci-dessous.
+    - La page doit fonctionner en deux versions :
+        Une version desktop (au-delà de 768px)
+        Une version mobile
+    - Vous êtes libre d'utiliser la méthode que vous voulez pour rendre le site responsive (grid, flex, inline-block, float, ...).
+    - Le HTML fourni ne doit pas être modifié
+    - Dans les deux versions, la page contient 6 zones principales:
+        ◦ Une en-tête (fond jaune: #ffd700) avec logo et un formulaire pour d'inscription à l'infolettre (fond rose: #ffc0cb)
+        ◦ Un pied de page contenant un menu (fond jaune: #ffd700)
+        ◦ Un article "Plaisirs chocolatés" (fond bleu: #96D7F5) qui contient une galerie de 4 photos
+        ◦ Un deuxième article "Sans allergènes" (fond vert: #64CD96)
+        ◦ Un troisième article "Fêtes" (fond rosé: #F38562)
+        ◦ Une zone de contenu complémentaire (aside, sur fond mauve #B683CD)
+
+Pondération
+
+La version desktop du site est conforme à la maquette
+    Intégration CSS     5
+    Rotation du logo    1
+    Zoom des icones     1
+    Coin arrondis       1
+
+
+La version mobile du site est conforme à la maquette
+    Images responsive   1
+    Entete              3
+    Aside               2
+    Plaisirs            2
+    Fete                2
+    Sans allergènes     2
+
+Total                   20

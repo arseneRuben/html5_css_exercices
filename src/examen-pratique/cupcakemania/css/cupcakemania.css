@@ -1,0 +1,238 @@
+/*           Une version mobile     */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Une en-tête et pied de page (fond jaune: #ffd700)  */
+header, footer {
+    background-color: #ffd700;
+    padding: 5px;
+}
+
+/* Alignement des element d'entete */
+div.logo {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.logo img:hover {
+    transform: rotate(15deg);
+}
+
+/* Abscence de formulaire dans la version mobile */
+header form {
+    display: none;
+}
+
+
+
+/* fond rose */
+main {
+
+    background-color: #ffc0cb;
+    ;
+}
+
+main aside {
+    background-color: #B683CD;
+    height: fit-content;
+}
+
+main aside img {
+
+    width: 20%;
+}
+
+/* Bords arrondis des articles */
+main aside, main section article {
+    border-radius: 8px;
+}
+
+main section {
+    clear: both;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+/*  article "Plaisirs chocolatés" (fond bleu: #96D7F5)  */
+article.plaisirs {
+    background-color: #96D7F5;
+
+}
+
+/*  article "Sans allergènes" (fond vert: #64CD96) */
+article.allergenes {
+    background-color: #64CD96;
+}
+
+/*  article "Fetes" (fond rosé: #F38562) */
+article.fetes {
+    background-color: #F38562;
+}
+
+section article, div.logo, main, main aside, main aside img {
+    padding: 10px;
+}
+
+main aside img {
+    float: left;
+}
+
+/* disposition des images */
+div.galerie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 15px;
+    margin: auto;
+}
+
+div.galerie img {
+    width: 100%;
+}
+
+footer {
+    padding: 10px 10px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20vh;
+    font-size: 0.8em;
+    /* Pour que les liens ne vont plus a la ligne */
+}
+
+/* liens du footer */
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+@media only screen and (min-width:768px) {
+
+    /* Une version desktop */
+    body {
+        margin: auto;
+        padding: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    div.logo {
+        flex-direction: column;
+    }
+
+    div.logo img {
+        width: 60px;
+    }
+
+    /* Traitement du formulaire */
+    header form {
+        display: block;
+        width: 50vw;
+        height: fit-content;
+    }
+
+    form fieldset div {
+        display: flex;
+        margin: 5px;
+        justify-content: space-between;
+    }
+
+
+    input[type="submit"] {
+        width: 100%;
+        margin: auto;
+    }
+
+    fieldset {
+        background-color: #ffc0cb;
+    }
+
+    /* Traitement du main */
+    main {
+        display: flex;
+        column-gap: 15px;
+        padding: 15px;
+    }
+
+    /* traitement du Aside */
+    main aside {
+        width: 100%;
+
+    }
+
+    main aside img, main aside p {
+        display: block;
+        float: none;
+    }
+
+    main aside img {
+        width: 60%;
+        margin: auto;
+
+    }
+
+    main aside p {
+        text-align: center;
+    }
+
+    /* disposition des images */
+    div.galerie {
+        display: flex;
+    }
+
+    div.galerie img {
+        width: 23%;
+    }
+
+    main section {
+        clear: both;
+        display: grid;
+        grid-template-areas: "l0 l0""l1 l1""l21 l22";
+        gap: 10px;
+    }
+
+    main section h2 {
+        grid-area: l0;
+    }
+
+    article.plaisirs {
+        grid-area: l1;
+
+
+    }
+
+    article.allergenes {
+        grid-area: l22;
+
+    }
+
+    article.fetes {
+        grid-area: l21;
+
+    }
+
+    /* footer */
+    /* liens du footer */
+    footer ul {
+        font-size: 1em;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
